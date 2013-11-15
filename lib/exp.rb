@@ -5,7 +5,7 @@ class Object
 	def exp 
 		begin
 			print "quick export to: "
-			fname = gets
+			fname = gets.strip
 			puts ""
 			f = open(fname, "w")
 			f.write(JSON.generate(self))
