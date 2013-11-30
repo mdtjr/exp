@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "exp"
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["michael d. towle"]
-  s.date = "2013-11-15"
+  s.date = "2013-11-30"
   s.description = "no; we're too lazy for that."
   s.email = "gametheoretic@gmail.com"
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "exp.gemspec",
+    "hash.json",
     "lib/exp.rb",
     "test/helper.rb",
     "test/test_exp.rb"
