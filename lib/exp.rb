@@ -1,7 +1,7 @@
 require 'json'
 
 class Object
-
+	exp_dir = nil
 	def exp 
 		begin
 			if not exp_dir
