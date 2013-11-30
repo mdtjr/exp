@@ -4,14 +4,14 @@ class Object
 
 	def exp 
 		begin
-			if not EXP_DIR
-				print "EXP_DIR: "
-				EXP_DIR = gets
+			if not exp_dir
+				print "exp_dir: "
+				exp_dir = gets
 			end
 		
 			print "export filename: "
 			fname = gets
-			f = open("#{EXP_DIR}/#{fname.strip}", "w")
+			f = open("#{exp_dir}/#{fname.strip}", "w")
 			f.write(JSON.generate(self))
 			f.close
 			puts "Success; \"#{fname}\" closed."
